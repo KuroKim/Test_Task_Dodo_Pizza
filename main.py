@@ -70,7 +70,7 @@ def main(video_path):
         current_time_sec = cap.get(cv2.CAP_PROP_POS_MSEC) / 1000.0
 
         # 1. ДЕТЕКЦИЯ: Ищем людей (classes=[0] - это person в YOLO)
-        results = model(frame, classes=[0], verbose=False)
+        results = model(frame, classes=[0], conf=0.25, verbose=False)
 
         person_in_zone = False
 
