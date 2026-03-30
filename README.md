@@ -6,8 +6,8 @@
 
 1. **Клонируйте репозиторий и перейдите в папку:**
    ```bash
-   git clone <ССЫЛКА_НА_ТВОЙ_РЕПОЗИТОРИЙ>
-   cd <ИМЯ_ПАПКИ>
+   git clone https://github.com/KuroKim/Test_Task_Dodo_Pizza
+   cd Test_Task_Dodo_Pizza
    ```
 
 2. **Установите зависимости:**
